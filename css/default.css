@@ -21,6 +21,9 @@ html, body {
 	height: 100%;
 	background-color: #fcfcfc;
 }
+h1 {
+	font-family: sans-serif;
+}
 #wrapper {
   min-height:100%;
   position:relative;
