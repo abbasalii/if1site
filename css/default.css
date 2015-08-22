@@ -119,22 +119,36 @@ html, body {
     background-color: #3e4545;
 }
 #content-wrapper {
-	width: 1024px;
-	padding: 8px;
+	width: 1016px;
+	padding: 16px;
 	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
 }
 #left-sidebar {
 	width: 208px;
-	padding: 0 8px;
+	padding-left: 8px;
 	position: relative;
 	float: left;
-	/*overflow: hidden;*/
 }
 #left-sidebar img {
 	width: 192px;
 	height: 228px;
+}
+#content {
+	width: 768px;
+	min-height: 684px;
+	position: relative;
+	overflow: hidden;
+	float: right;
+}
+#bottom-ad {
+	width: 766px;
+	position: relative;
+	bottom: 0;
+}
+#bottom-ad img {
+	width: 766px;
 }
 #footer{
 	width: 100%;
