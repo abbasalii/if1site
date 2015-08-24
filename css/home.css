@@ -8,8 +8,8 @@
 	overflow: hidden;
 }
 #about-if1 {
-	width: 288px;
-	height: 288px;
+/*	width: 288px;
+	height: 288px;*/
 	margin-right: 48px;
 	padding: 16px;
 	position: relative;
@@ -17,8 +17,8 @@
 	background-color: #5fed49;
 }
 #latest {
-	width: 288px;
-	height: 288px;
+/*	width: 288px;
+	height: 288px;*/
 	position: relative;
 	padding: 16px;
 	float: left;

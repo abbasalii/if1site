@@ -3,41 +3,23 @@
 <head>
 	<meta charset="UTF-8">
 	<title>Home</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/default.css">
 	<link rel="stylesheet" type="text/css" href="css/post_event.css">
 </head>
 <body>
-	<div id="wrapper">
-		<div id="header">
-			<div id="header-content">
-				<a href="#" id="logo"></a>
-				<div id="main-navigation">
-					<ul class="nav-list nav-upper">
-						<li class="nav-item-upper"><a id="signup" href="#">Sign Up</a></li>
-						<li class="nav-item-upper"><a id="login" href="#">Login</a></li>
-						<li class="nav-item-upper"><a id="post-event" href="#">Post an Event</a></li>
-						<li class="nav-item-upper"><a id="post-job" href="#">Post a Job</a></li>
-					</ul>
-					<ul class="nav-list">
-						<li class="nav-item"><a href="#"><img src="images/home-link.png">Home</a></li>
-						<li class="nav-item"><a href="#"><img src="images/job-link.png">Jobs</a></li>
-						<li class="nav-item"><a href="#"><img src="images/scholarship-link.png">Scholarships &amp Fellowships</a></li>
-						<li class="nav-item"><a href="#"><img src="images/event-link.png">Events</a></li>
-						<li class="nav-item"><a href="#"><img src="images/contact-link.png">Contact Us</a></li>
-					</ul>
-				</div>
-			</div>
-		</div>
-		<div id="content-wrapper">
-			<div id="left-sidebar">
-				<img src="images/falcon-ad.png">
-				<img src="images/google-ad.png">
-				<img src="images/black-ad.png">
-			</div>
-			<div id="content">
+
+<div id="headerdiv"></div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-9 col-sm-push-3">
+			<!--PAGE CONTENT HERE-->
+			<div class="row">
 				<h1>Post Your Event</h1>
-				<div id="event-form-container">
-					<div id="form-left">
+				<div class="row" id="event-form-container">
+					<div class="col-sm-5 leftpad">
 						<label>Event Name</label>
 						<input class="input-text" type="text">
 						<label>Date</label>
@@ -50,12 +32,11 @@
 						<textarea class="text-area-small"></textarea>
 						<label>Description</label>
 						<textarea class="text-area"></textarea>
-						<input type="button" class="btn btn-post" value="Post">
 					</div>
-					<div id="mid-text">
+					<div class="col-sm-2 leftpad">
 						<h3>OR</h3>
 					</div>
-					<div id="form-right">
+					<div class="col-sm-5 leftpad">
 						<label>Directly Enter the Detail in the Box</label>
 						<textarea placeholder="Enter title" class="text-area-small box-element top"></textarea>
 						<textarea placeholder="Enter detail" class="text-area box-element"></textarea>
@@ -67,44 +48,29 @@
 						<p>(Size should be 218x257 px)</p>
 					</div>
 				</div>
-				<div id="bottom-ad">
-					<img src="images/bottom-ad.png">
+				<div class="row" id="event-form-container">
+					<div class="col-sm-5 leftpad">
+						<input type="button" class="btn btn-post" value="Post">
+					</div>
+				</div>
+				<div class="row" style="padding-left: 1%;">
+					<img width="98%" src="images/bottom-ad.png">
 				</div>
 			</div>
 		</div>
-		<div id="footer">
-			<div id="footer-wrapper">
-				<div id="col1">
-					<ul class="footer-links-list">
-						<li><a class="footer-link" href="#">Home</a></li>
-						<li><a class="footer-link" href="#">Jobs</a></li>
-						<li><a class="footer-link" href="#">Scholarships and Fellowships</a></li>
-						<li><a class="footer-link" href="#">Events</a></li>
-						<li><a class="footer-link" href="#">Contact Us</a></li>
-					</ul>
-				</div>
-				<div id="col2">
-					<ul class="footer-links-list">
-						<li><a class="footer-link" href="#">What is iF1</a></li>
-						<li><a class="footer-link" href="#">Post a Job</a></li>
-						<li><a class="footer-link" href="#">Post a Scholarship</a></li>
-					</ul>
-				</div>
-				<div id="col3">
-					<ul class="footer-links-list">
-						<li><a class="footer-link" href="#">Privacy Policy</a></li>
-						<li><a class="footer-link" href="#">Terms and Conditions</a></li>
-					</ul>
-				</div>
-				<div id="col4">
-					<div id="suggestions-container">
-						<img src="images/if1-footer.png" id="footer-if1-img">
-						<p id="suggestions-text">Send us suggestions to improve our site</p>
-					</div>
-					<input type="button" id="suggestion-btn" value="Send Your Suggestions">
-				</div>
-			</div>
+		<div class="col-sm-3 col-sm-pull-9">
+			<img width="100%" src="images/falcon-ad.png">
+			<img width="100%" src="images/google-ad.png">
+			<img width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+</div>
+
+<div id="footerdiv"></div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>$("#headerdiv").load("header.html")</script>
+<script>$("#footerdiv").load("footer.html")</script>
 </body>
 </html>

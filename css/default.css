@@ -30,8 +30,8 @@ h1 {
 }
 
 #header {
-	width: 100%;
-	height: 115px;
+	/*width: 100%;
+	height: 115px;*/
 	background-color: #fcfcfc;
 }
 #header-content {
@@ -122,8 +122,8 @@ h1 {
     background-color: #3e4545;
 }
 #content-wrapper {
-	width: 1016px;
-	padding: 16px;
+/*	width: 1016px;
+	padding: 16px;*/
 	overflow: hidden;
 	position: relative;
 	margin: 0 auto;
@@ -138,6 +138,8 @@ h1 {
 	width: 192px;
 	height: 228px;
 }
+
+
 #content {
 	width: 768px;
 	min-height: 684px;
@@ -153,11 +155,16 @@ h1 {
 #bottom-ad img {
 	width: 766px;
 }
+
+.colleftpadding{
+	padding-left: auto;
+}
+
 #footer{
 	width: 100%;
 	padding: 16px 0;
 	background-color: #3e4545;
-	height: 116px;
+	/*height: 116px;*/
 	bottom: 0;
 	left: 0;
 }
@@ -169,6 +176,10 @@ h1 {
 }
 .footer-links-list {
 	list-style: none;
+	padding-left: 30%;
+}
+.leftpad{
+	padding-left: 5%;
 }
 .footer-link {
 	color: #dadde4;
