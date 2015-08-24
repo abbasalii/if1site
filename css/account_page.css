@@ -1,15 +1,14 @@
-#resume-head-wrapper {
+#account-head-wrapper {
 	padding-bottom: 12px;
 	padding-left: 32px;
 }
-#resume-head {
+#account-head {
 	display: inline;
 }
-
 .anchor {
 	text-decoration: none;
 }
-.anchor-view-cv {
+.anchor-upload-pic {
 	color: #717f81;
 	font-size: 11pt;
 	padding-top: 8px;
@@ -42,7 +41,7 @@
 	float: left;
 	margin-left: 96px;
 }
-#resume-form-container {
+#account-form-container {
 	overflow: hidden;
 }
 label {
@@ -78,9 +77,4 @@ label {
 .btn-update {
 	background-color: #0096db;
 	margin: 12px 0 16px 0;
-}
-.btn-upload {
-	display: block;
-	background-color: #00b38a;
-	margin-top: 16px;
 }
