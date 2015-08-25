@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Home</title>
+
+	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+	<link rel="stylesheet" type="text/css" href="css/default.css">
+	<link rel="stylesheet" type="text/css" href="css/logged_in.css">
+</head>
+<body>
+
+<div id="headerdiv">
+	<div class="container">
+    <br>
+    <div class="row" id="header">
+        <div class="col-sm-2">
+            <a href="#"><img width="100%" src="images/logo.png" alt=""></a>
+        </div>
+	   	<div class="col-sm-10">
+            <br>
+            <ul class="nav-list">
+				<li class="drop-down-item">
+					<div class="btn-group">
+						<button type="button" class="drop-down-btn btn dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" 
+							aria-expanded="false">Account<span class="caret"></span>
+						</button>
+						<ul class="drop-down-ul dropdown-menu dropdown-menu-right">
+							<li><a  href="#account">Account</a></li>
+							<li><a  href="#messages">Messages</a></li>
+							<li><a  href="#appliedjobs">Applied Jobs</a></li>
+							<li><a  href="#savedjobs">Saved Jobs</a></li>
+							<li><a href="#myresume">My Resume</a></li>
+							<li><a  href="#logout">Logout</a></li>
+						</ul>
+					</div>
+				</li>
+                <li class="nav-item-upper"><a id="post-event" href="#">Post an Event</a></li>
+                <li class="nav-item-upper"><a id="post-job" href="#">Post a Job</a></li>
+            </ul>
+            <ul class="nav-list" style="float: right;">
+                <li class="nav-item"><a href="#"><img src="images/home-link.png">Home</a></li>
+                <li class="nav-item"><a href="#"><img src="images/job-link.png">Jobs</a></li>
+                <li class="nav-item"><a href="#"><img src="images/scholarship-link.png">Scholarships &amp
+                    Fellowships</a></li>
+                <li class="nav-item"><a href="#"><img src="images/event-link.png">Events</a></li>
+                <li class="nav-item"><a href="#"><img src="images/contact-link.png">Contact Us</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+</div>
+
+<div class="container">
+	<div class="row">
+		<div class="col-sm-9 col-sm-push-3">
+			<!--PAGE CONTENT HERE-->
+		</div>
+		<div class="col-sm-3 col-sm-pull-9">
+			<img width="100%" src="images/falcon-ad.png">
+			<img width="100%" src="images/google-ad.png">
+			<img width="100%" src="images/black-ad.png">
+		</div>
+	</div>
+</div>
+
+<div id="footerdiv"></div>
+
+<script src="bootstrap/js/jquery.min.js"></script>
+<script src="bootstrap/js/bootstrap.min.js"></script>
+<script>$("#footerdiv").load("footer.html")</script>
+</body>
+</html>

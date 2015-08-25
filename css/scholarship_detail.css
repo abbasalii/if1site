@@ -1,0 +1,67 @@
+.post-date {
+	padding-left: 48px;
+	font-family: sans-serif;
+	font-style: italic;
+	display: inline;
+}
+#scholarship-title {
+	padding: 8px 0 8px 32px;
+	margin: 0;
+}
+.short-desc {
+	padding-left: 32px;
+	font-family: sans-serif;
+}
+.anchor {
+	text-decoration: none;
+}
+.anchor-back {
+	position: relative;
+	float: right;
+	padding-right: 32px;
+	text-decoration: none;
+	text-align: center;
+	font-size: 14pt;
+}
+.anchor:hover {
+	cursor: pointer;
+	text-decoration: underline;
+}
+#desc-container {
+	overflow: hidden;
+}
+.heading {
+	display: block;
+	padding: 16px 0 8px 0;
+	margin: 0;
+	font-family: sans-serif;
+	font-weight: bold;
+}
+.text {
+	width: 100%;
+	font-family: sans-serif;
+	line-height: 1.5;
+	font-size: 11pt;
+}
+.btn{
+	display: block;
+	margin: 12px 0;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: none;
+	border-radius: 0;
+}
+.btn:hover {
+	cursor: pointer;
+}
+.btn-send {
+	background-color: #00b5af;
+}
+.result-info {
+	text-align: center;
+	padding: 8px 0;
+	margin: 16px 0;
+	color: #fff;
+	background-color: #818181;
+}

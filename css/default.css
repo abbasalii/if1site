@@ -62,7 +62,8 @@ h1 {
 	list-style-type: none;
     margin: 0;
     padding: 0;
-    overflow: hidden;
+    clear: both;
+    /*overflow: hidden;*/
 }
 .nav-item-upper {
 	float: right;
@@ -74,7 +75,7 @@ h1 {
     text-align: center;
     padding: 8px 12px;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 #post-job {
 	background-color: #00b1c1;

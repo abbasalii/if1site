@@ -40,22 +40,12 @@ td {
 	height: 16px;
 	padding-right: 4px;
 }
-#resume-content-left {
-	width: 310px;
-	position: relative;
-	float: left;
-}
-#resume-content-right {
-	width: 310px;
-	position: relative;
-	float: left;
-	margin-left: 96px;
-}
 #resume-container {
 	overflow: hidden;
 }
 .btn{
 	padding: 8px 4px;
+	border-radius: 0;
 	color: #FFFFFF;
 	font-family: sans-serif;
 	font-weight: bold;

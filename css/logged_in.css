@@ -1,0 +1,27 @@
+.drop-down-item {
+	float: right;
+}
+.drop-down-btn {
+	min-width: 160px;
+	background-color: #776f67;
+	border-radius: 0;
+	font-weight: bold;
+	border-color: #776f67;
+	color: #fff;
+	text-decoration: none;
+}
+.drop-down-btn:hover, .drop-down-btn:open {
+	background-color: #534e49;
+	color: #fff;
+}
+.drop-down-ul {
+	background-color: #938b82;
+	margin: 0;
+}
+.drop-down-ul li a {
+	color: #fff;
+	font-weight: bold;
+}
+.drop-down-ul li a:hover {
+	background-color: #d05c5c;
+};

@@ -1,0 +1,33 @@
+#registeration-head {
+	padding: 4px 0 4px 32px;
+	margin: 0;
+	font-weight: bold;
+	font-family: sans-serif;
+	font-size: 17pt;
+}
+#registeration-form-container {
+	overflow: hidden;
+}
+.input-text {
+	width: 100%;
+	font-size: 12pt;
+	padding: 6px 2px;
+	border: 1px solid #ccc;
+	border-radius: 3px;
+	margin: 12px 0;
+	background-color: #f4f4f4;
+}
+.btn{
+	background-color: #0096db;
+	margin: 12px 0 16px 0;
+	padding: 8px 4px;
+	border-radius: 0;
+	color: #FFFFFF;
+	font-family: sans-serif;
+	font-weight: bold;
+	border: none;
+	display: block;
+}
+.btn:hover {
+	cursor: pointer;
+}

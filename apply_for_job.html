@@ -2,11 +2,11 @@
 <html lang="en">
 <head>
 	<meta charset="UTF-8">
-	<title>Account</title>
+	<title>Apply for a Job</title>
 
 	<link rel="stylesheet" href="bootstrap/css/bootstrap.css">
 	<link rel="stylesheet" type="text/css" href="css/default.css">
-	<link rel="stylesheet" type="text/css" href="css/account_page.css">
+	<link rel="stylesheet" type="text/css" href="css/apply_for_job.css">
 </head>
 <body>
 
@@ -17,31 +17,20 @@
 		<div class="col-sm-9 col-sm-push-3">
 			<!--PAGE CONTENT HERE-->
 			<div class="row">
-				<div id="account-head-wrapper">
-					<h1 id="account-head">Your Account</h1>
-					<a class="anchor anchor-edit" href="#edit"><img src="images/edit-btn.png">Edit</a>
-				</div>
-				<div class="row" id="account-form-container">
-					<div class="col-sm-6 leftpad">
-						<label>Name</label>
-						<input class="input-text" type="text">
-						<label>Date of Birth</label>
-						<input class="input-text" type="text">
-						<label>Phone</label>
-						<input class="input-text" type="text">
-						<label>Email</label>
-						<textarea class="text-area"></textarea>
-						<label>Address</label>
-						<textarea class="text-area"></textarea>
-					</div>
-					<div class="col-sm-6 leftpad">
-						<img src="images/upload-pic.png">
-						<a class="anchor anchor-upload-pic" href="#upload-pic">Upload Picture</a>
-					</div>
-				</div>
 				<div class="row">
+					<p class="post-date">Posted on: 25th August 2015</p>
+					<a class="anchor anchor-back" href="#back">&lt Back</a>
+				</div>
+				<h1 id="job-title">Software Engineer</h1>
+				<p class="short-desc">Nayatel | Last Date: 7-Sep-2015 | Islamabad</p>
+				<div class="row" id="apply-form-container">
 					<div class="col-sm-6 leftpad">
-						<input type="button" class="btn btn-update" value="Update Changes">
+						<input class="input-text" type="text" placeholder="Name">
+						<input class="input-text" type="text" placeholder="Email">
+						<textarea class="text-area" placeholder="Message"></textarea>
+						<input type="button" class="btn btn-upload-cv" value="Upload Your CV">
+						<input type="button" class="btn btn-upload-if1" value="Use the CV Stored on iF1">
+						<input type="button" class="btn btn-apply" value="Apply">
 					</div>
 				</div>
 				<div class="row" style="padding-left: 1%;">
