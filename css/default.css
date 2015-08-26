@@ -24,6 +24,11 @@ html, body {
 h1 {
 	font-family: sans-serif;
 }
+
+#header{
+	padding-top: 10px;
+}
+
 #wrapper {
   min-height:100%;
   position:relative;

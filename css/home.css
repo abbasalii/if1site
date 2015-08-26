@@ -9,8 +9,8 @@
 }
 #about-if1 {
 /*	width: 288px;
-	height: 288px;*/
-	margin-right: 48px;
+	height: 288px;
+	margin-right: 48px;*/
 	padding: 16px;
 	position: relative;
 	float: left;
@@ -45,6 +45,9 @@
 	text-align: right;
 	text-decoration: none;
 	padding: 4px;
+	position: absolute;
+	bottom: 3px;
+	right: 10px;
 }
 .anchor:hover {
 	text-decoration: underline;

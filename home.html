@@ -12,42 +12,43 @@
 
 <div id="headerdiv"></div>
 
-<div class="container">
+<div class="container" style="z-index: 5">
     <div class="row">
-            <div class="col-sm-9 col-sm-push-3">
+            <div class="col-sm-9 col-sm-push-3" id="maincontent">
                 <div class="row" style="padding-left: 1%;">
-                    <img width="98%" src="images/banner.png">
+                    <img width="99%" src="images/banner.png">
                 </div>
                 <h2>Latest in our site:</h2>
 
                 <div class="row" style="padding-left: 1%;" id="latest-container">
-                    <div class="row-sm-height">
-                        <div class="col-xs-12 col-sm-5 col-sm-height" id="about-if1">
-                            <p id="about-head" class="head">What is IF1 all about?</p>
+                    <div style="min-height: 300px;" class="col-xs-12 col-sm-5" id="about-if1">
+                        <p id="about-head" class="head">What is IF1 all about?</p>
 
-                            <p class="para">With the cooperations of HEC, we are going to announce Scholarships and Jobs for
-                                under-graduates.</p>
-                            <br>
-                            <a class="anchor" href="#readmore">Click to know more</a>
-                        </div>
-                        <div class="col-xs-12 col-sm-5 col-sm-height" id="latest">
-                            <p id="latest-head" class="head">Latest Jobs! &amp Scholarships</p>
+                        <p class="para">With the cooperations of HEC, we are going to announce Scholarships and Jobs for
+                            under-graduates.</p>
+                        <br>
+                        <a class="anchor" href="#readmore">Click to know more</a>
+                    </div>
+                    <div class="col-sm-1"></div>
+                    <div style="min-height: 300px;" class="col-xs-12 col-sm-5" id="latest">
+                        <p id="latest-head" class="head">Latest Jobs! &amp Scholarships</p>
 
-                            <p class="para">IF1 is going to post latest jobs &amp scholarships regularly. We also offer our own
-                                set of prizes and gift to under-graduate students!</p>
+                        <p class="para">IF1 is going to post latest jobs &amp scholarships regularly. We also offer our own
+                            set of prizes and gift to under-graduate students!</p>
 
-                            <a class="anchor" href="#readmore">Click to know more</a>
-                        </div>
+                        <a class="anchor" href="#readmore">Click to know more</a>
                     </div>
                 </div>
                 <div class="row" style="padding-left: 1%;">
-                    <img width="98%" src="images/bottom-ad.png">
+                    <br>
+                    <img width="99%" src="images/bottom-ad.png">
+
                 </div>
             </div>
-            <div class="col-sm-3 col-sm-pull-9">
-                <img width="100%" src="images/falcon-ad.png">
-                <img width="100%" src="images/google-ad.png">
-                <img width="100%" src="images/black-ad.png">
+            <div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+                <img width="100%" style="height: 33.33%" src="images/falcon-ad.png">
+                <img width="100%" style="height: 33.33%" src="images/google-ad.png">
+                <img width="100%" style="height: 33.33%" src="images/black-ad.png">
             </div>
     </div>
 </div>
@@ -58,5 +59,13 @@
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script>
+    window.onload=function(){
+        if (!(navigator.userAgent.match(/Android|BlackBerry|iPhone|iPad|iPod|Opera Mini|IEMobile/i))) {
+            $("#leftbarads").height($("#maincontent").height());
+            $("#navmain").height($("#logomain").height());
+        }
+    };
+</script>
 </body>
 </html>
