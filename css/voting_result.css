@@ -1,0 +1,122 @@
+#searchdiv{
+	border: 10px solid;
+	border-color: #4B5457;
+	background-color: #4B5457;
+	width: 100%;
+}
+#search-input-div{
+	width: 89%;
+	float: left;
+}
+#can-name-or-id{
+	width: 100%;
+	height: 28px;
+	border: 2px solid;
+	margin: 0px;
+	border-color: rgba(0,0,0,0.2);
+	padding: 2px;
+}
+
+#search-btn-div{
+	/*width: 50px;*/
+}
+
+#can-search-btn{
+	margin-left: 5px;
+	background-color: #008db5;
+	color: #FFF;
+	border:none;
+	border-color: #008db5;
+	height: 28px;
+	width:96px;
+}
+
+#candidate-container{
+	width: 100%;
+	height: 656px;
+	margin-top: 5px;
+	margin-bottom: 5px;
+	overflow-y: scroll;
+}
+.candidate-inner{
+	width: 256px;
+	float: left;
+	margin: 5px;
+}
+
+.candidate-class{
+	position: relative;
+	width: 100%;
+}
+
+.blue-triangle{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 48px;
+	z-index: 1;
+}
+
+.triangle-text{
+	position: absolute;
+	top: 0;
+	right: 0;
+	width: 48px;
+	height: 48px;
+	z-index: 1;
+	color: #FFF;
+	text-align: right;
+	padding: 8px;
+}
+
+.candidate-name{
+	position: absolute;
+	left: 0;
+	bottom: 0;
+	width: 100%;
+	color: #FFF;
+	font-style: italic;
+	background-color: rgba(0,0,0,0.5);
+	z-index: 1;
+	padding: 5px;
+}
+
+.candidate-result{
+	position: relative;
+	background-color: #111C24;
+}
+
+.candidate-result-heading{
+	clear: both;
+
+}
+
+.vote-btn-class{
+	width: 96px;
+	margin: 5px;
+	color: #FFF;
+	background-color: #EF8200;
+	border: 1px solid #EF8200;
+	border-radius: 1px;
+	padding: 5px;
+	outline: none;
+}
+
+.candidate-facebook{
+	position: absolute;
+	top:0;
+	right: 42px;
+	margin: 5px;
+	width: 32px;
+	height: 32px;
+}
+
+.candidate-twitter{
+	position: absolute;
+	top:0;
+	right: 0;
+	margin: 5px;
+	width: 32px;
+	height: 32px;
+}
