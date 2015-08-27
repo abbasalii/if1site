@@ -1,0 +1,167 @@
+#searchdiv{
+	border: 10px solid;
+	border-color: #4B5457;
+	background-color: #4B5457;
+	width: 100%;
+}
+#search-input-div{
+	width: 89%;
+	float: left;
+}
+#can-name-or-id{
+	width: 100%;
+	height: 28px;
+	border: 2px solid;
+	margin: 0px;
+	border-color: rgba(0,0,0,0.2);
+	padding: 2px;
+}
+
+#search-btn-div{
+	/*width: 50px;*/
+}
+
+.search-btn-class{
+	margin-left: 5px;
+	background-color: #008db5;
+	color: #FFF;
+	border:none;
+	border-color: #008db5;
+	height: 28px;
+	width:96px;
+}
+
+#filter-div{
+	background-color: #5F6A72;
+	width: 100%;
+	padding: 10px;
+}
+
+#filter-heading{
+	color: #FFF;
+}
+
+#filter-table td{
+	padding: 5px;
+}
+
+.filter-input-class{
+	padding: 5px;
+	border-radius: 2px solid;
+}
+
+.search-btn-filter{
+	background-color: #008db5;
+	color: #FFF;
+	border:none;
+	border-color: #008db5;
+	height: 28px;
+	width:96px;
+}
+
+.tabs {
+  position: relative;   
+  min-height: 724px;
+  clear: both;
+  margin: 0;
+  margin-bottom: 48px;
+}
+.tab {
+  float: left;
+}
+.tab label {
+  color: #fff;
+  background: #a7b2b1; 
+  padding: 10px; 
+  border: 1px solid #a7b2b1; 
+  margin-left: -3px; 
+  position: relative;
+  left: 3px;
+}
+.tab [type=radio] {
+  display: none;
+}
+.content {
+  position: absolute;
+  top: 40px;
+  left: 0;
+  background: white;
+  right: 0;
+  bottom: 0;
+  padding: 20px;
+  border: 1px solid #ccc;
+  overflow-y: scroll;
+}
+[type=radio]:checked ~ label {
+  background: #717f81;
+  border-top: 1px solid #717f81;
+  border-bottom: 1px solid #717f81;
+  z-index: 2;
+}
+[type=radio]:checked ~ label ~ .content {
+  z-index: 1;
+}
+.job-page-table{
+
+}
+
+.job-page-table th{
+  color: #b7b7b7;
+  text-align: left;
+}
+
+.job-page-table td{
+  padding: 10px;
+}
+
+.freelance{
+  background-color: #ffa12d;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.job-heading-class{
+  color: #006bbb;
+}
+
+.job-company{
+  color: #2c95b5;
+}
+
+.posted-by-text{
+  color:#898989;
+}
+
+.job-place{
+  color: #575a5d;
+}
+
+.job-date{
+  color: #999b9d;
+}
+
+.internship{
+  background-color: #0098aa;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.fulltime{
+  background-color: #55a51c;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+}
+
+.internship2{
+  background-color: #834cb1;
+  padding: 2px;
+  width: 80px;
+  text-align: center;
+  color: #fff;
+}
