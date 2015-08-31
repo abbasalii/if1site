@@ -10,43 +10,31 @@
 </head>
 <body>
 
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
 		<div class="col-sm-9 col-sm-push-3" id="maincontent">
-			<!--PAGE CONTENT HERE-->
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<!--PAGE MAIN CONTENT HERE-->
+				</div>
+			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
-			<img width="100%" style="height: 33.33%" src="images/falcon-ad.png">
-			<img width="100%" style="height: 33.33%" src="images/google-ad.png">
-			<img width="100%" style="height: 33.33%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9">
+			<img width="100%" src="images/falcon-ad.png">
+			<img width="100%" src="images/google-ad.png">
+			<img width="100%" src="images/black-ad.png">
 		</div>
 	</div>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
-<script>
-    window.onload=function(){
-        if (!(navigator.userAgent.match(/BlackBerry|iPhone|iPod|Opera Mini|IEMobile/i))) {
-            $("#leftbarads").height($("#maincontent").height());
-
-            //console.log($("body").height());
-            //console.log($(document).height());
-
-            if($("body").height() < $(window).height()){
-                $("body").height($(window).height());
-                $("#footerdiv").css('position','absolute');
-                $("#footerdiv").css('bottom','0');
-                $("#footerdiv").css('width','100%');
-            }
-        }
-    };
-</script>
+<script src="js/script.js"></script>
 </body>
 </html>

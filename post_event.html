@@ -9,48 +9,49 @@
 	<link rel="stylesheet" type="text/css" href="css/post_event.css">
 </head>
 <body>
-
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
-		<div class="col-sm-9 col-sm-push-3">
+		<div class="col-sm-9 col-sm-push-3" id="maincontent">
 			<!--PAGE CONTENT HERE-->
-			<div class="row">
-				<h1 class="post-event-head">Post Your Event</h1>
-				<div class="row" id="event-form-container">
-					<div class="col-sm-5 leftpad">
-						<label>Event Name</label>
-						<input class="input-text" type="text">
-						<label>Date</label>
-						<input class="input-text" type="text">
-						<label>Time</label>
-						<input class="input-text" type="text">
-						<label>Address</label>
-						<textarea class="text-area-small"></textarea>
-						<label>Contact Info</label>
-						<textarea class="text-area-small"></textarea>
-						<label>Description</label>
-						<textarea class="text-area"></textarea>
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<h1 class="post-event-head">Post Your Event</h1>
+					<div class="row" id="event-form-container">
+						<div class="col-sm-5 leftpad">
+							<label>Event Name</label>
+							<input class="input-text" type="text">
+							<label>Date</label>
+							<input class="input-text" type="text">
+							<label>Time</label>
+							<input class="input-text" type="text">
+							<label>Address</label>
+							<textarea class="text-area-small"></textarea>
+							<label>Contact Info</label>
+							<textarea class="text-area-small"></textarea>
+							<label>Description</label>
+							<textarea class="text-area"></textarea>
+						</div>
+						<div class="col-sm-2 leftpad">
+							<h3>OR</h3>
+						</div>
+						<div class="col-sm-4 leftpad">
+							<label>Directly Enter the Detail in the Box</label>
+							<textarea placeholder="Enter title" class="text-area-small box-element top"></textarea>
+							<textarea placeholder="Enter detail" class="text-area box-element"></textarea>
+							<input class="input-text box-element" type="text" placeholder="Date">
+							<textarea placeholder="Place" class="text-area-small box-element"></textarea>
+							<textarea placeholder="Posted by" class="text-area-small box-element bottom"></textarea>
+							<h3 class="center">OR</h3>
+							<input type="button" class="btn btn-upload-pic" value="Directly Upload Your Own Picture">
+							<p>(Size should be 218x257 px)</p>
+						</div>
 					</div>
-					<div class="col-sm-2 leftpad">
-						<h3>OR</h3>
-					</div>
-					<div class="col-sm-5 leftpad">
-						<label>Directly Enter the Detail in the Box</label>
-						<textarea placeholder="Enter title" class="text-area-small box-element top"></textarea>
-						<textarea placeholder="Enter detail" class="text-area box-element"></textarea>
-						<input class="input-text box-element" type="text" placeholder="Date">
-						<textarea placeholder="Place" class="text-area-small box-element"></textarea>
-						<textarea placeholder="Posted by" class="text-area-small box-element bottom"></textarea>
-						<h3 class="center">OR</h3>
-						<input type="button" class="btn btn-upload-pic" value="Directly Upload Your Own Picture">
-						<p>(Size should be 218x257 px)</p>
-					</div>
-				</div>
-				<div class="row" id="event-form-container">
-					<div class="col-sm-5 leftpad">
-						<input type="button" class="btn btn-post" value="Post">
+					<br><br>
+					<div class="row" id="event-form-container">
+						<div class="col-sm-5 leftpad">
+							<input type="button" class="btn btn-post" value="Post">
+						</div>
 					</div>
 				</div>
 				<div class="row" style="padding-left: 1%;">
@@ -58,19 +59,21 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
-			<img width="100%" src="images/falcon-ad.png">
-			<img width="100%" src="images/google-ad.png">
-			<img width="100%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+			<img class="leftads" width="100%" src="images/falcon-ad.png">
+			<img class="leftads" width="100%" src="images/google-ad.png">
+			<img class="leftads" width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+	<br>
 </div>
-
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>

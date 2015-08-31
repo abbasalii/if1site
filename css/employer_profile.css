@@ -1,0 +1,200 @@
+.profile-head {
+	font-family: opensans;
+	font-size: 18px;
+	padding-bottom: 8px;
+}
+.applicants-head {
+	font-family: opensans-semibold;
+	font-size: 16px;
+	padding-bottom: 10px;
+}
+.profile-name-head {
+	font-family: opensans-semibold;
+	font-size: 18px;
+	margin-bottom: 6px;
+}
+.business-units {
+	font-family: opensans-semibold;
+	font-size: 18px;
+	padding: 12px 0; 
+}
+.business-units a img {
+	padding-left: 24px;
+}
+
+.profile-name-head a {
+	font-family: opensans-semibold;
+	font-size: 13px;
+	padding-left: 4px;
+}
+.address {
+	font-family: opensans-semibold;
+	font-size: 14px;
+	padding: 4px 0 8px 0;
+}
+.table-default {
+	width: 100%;
+}
+.table-past {
+	border: none;
+	margin-bottom: 6px;
+}
+.table-past tr {
+	border: none;
+}
+.table-past td {
+	padding: 4px 16px;
+	font-size: 14px;
+	font-family: opensans-semibold;
+}
+.table-default tr {
+	border: 1px solid #AB9B9B;
+}
+.table-default th {
+	font-family: opensans-semibold;
+	font-size: 14px;
+	color: #fff;
+	padding: 4px 16px;
+}
+.table-default td {
+	font-family: opensans;
+	vertical-align: middle;
+	padding: 8px 16px;
+}
+.table-head {
+	background-color: #0082c0;
+	border-color: #0082c0;
+}
+.name {
+	font-family: opensans-semibold;
+	color: #006bbb;
+}
+.table-default td a {
+	font-family: opensans-semibold;	
+	font-size: 14px;
+}
+.table-default td img {
+	vertical-align: middle;
+}
+.personal-details {
+	width: 100%;
+}
+.personal-details tr {
+	border: 1px solid #C5B7B7;
+}
+.td-1 {
+	width: 25%;
+	font-family: opensans-semibold;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 8px 16px;
+}
+.td-2 {
+	width: 25%;
+	font-family: opensans;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 8px 16px;
+	border-right: 1px solid #C5B7B7;
+}
+.td-3 {
+	width: 15%;
+	font-family: opensans-semibold;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 8px 16px;
+}
+.td-4 {
+	width: 35%;
+	font-family: opensans;
+	font-size: 14px;
+	vertical-align: middle;
+	padding: 8px 16px;
+}
+.profile-left {
+	width: 100%;
+	padding: 8px;
+	height: 346px;
+	border: 1px solid #E6E2E2;
+	border-radius: 3px;
+}
+.menu-head {
+	font-family: opensans;
+	font-size: 18px;
+	line-height: 1.7;
+}
+.sub-menu {
+	font-family: opensans;
+	font-size: 14px;
+	padding-left: 16px;
+	line-height: 1.8;
+	text-decoration: none;
+}
+.sub-menu:hover {
+	text-decoration: underline;
+	cursor: pointer;
+}
+.current {
+	color: #0082c0;
+}
+.current input {
+	float: right;
+	padding-top: 8px;
+}
+.normal {
+	color: #717f81;
+}
+#applicants {
+}
+#job-listing {
+	display: none;
+}
+#profile {
+	display: none;
+}
+.type {
+	background-color: #ffa12d;
+	color: #fff;
+	font-size: 13px;
+	padding: 0 6px;
+	margin-right: 4px;
+}
+.loc {
+	margin-left: 74px;
+}
+.no-of-app {
+	text-align: center;
+}
+.new-listing-btn {
+	background-color: #018d88;
+	color: #fff;
+	font-family: opensans-semibold;
+	float: right;
+	margin-top: 8px;
+	padding: 4px;
+	border: none;
+}
+.new-position-btn {
+	background-color: #0096db;
+	color: #fff;
+	padding: 4px;
+	font-family: opensans-semibold;
+	margin: 4px 0 8px 0;
+	border: none;
+}
+.company-logo {
+	width: 128px;
+	float: right;
+}
+.logo-image {
+	width: 128px;
+	height: 128px;
+	background-color: #777070;
+	margin-top: 16px;
+}
+.logo-upload {
+	font-family: opensans-semibold;
+	font-size: 13px;
+	display: table-cell;
+	text-align: center;
+}

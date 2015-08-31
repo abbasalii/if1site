@@ -1,15 +1,13 @@
 .post-date {
-	padding-left: 48px;
 	font-family: sans-serif;
 	font-style: italic;
 	display: inline;
 }
 #job-title {
-	padding: 8px 0 8px 32px;
+	padding: 8px 0 8px 0px;
 	margin: 0;
 }
 .short-desc {
-	padding-left: 32px;
 	font-family: sans-serif;
 }
 .anchor {

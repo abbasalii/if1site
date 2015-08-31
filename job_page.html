@@ -10,315 +10,331 @@
 </head>
 <body>
 
-<div id="headerdiv"></div>
-
 <div class="container">
+    <div id="headerdiv"></div>
     <div class="row">
-            <div class="col-sm-9 col-sm-push-3">
-                <div id="searchdiv">
-                    <div id="search-input-div">
-                        <input id="can-name-or-id" type="text" placeholder="keywords, job title, etc."/>
+        <div class="col-sm-9 col-sm-push-3" id="maincontent">
+            <!--PAGE CONTENT HERE-->
+            <div class="row maincontentrow">
+                <div class="maincontentwindow">
+                    <div id="searchdiv">
+                        <div class="row">
+                            <div class="col-xs-8 col-sm-10 col-lg-11">
+                                <input id="can-name-or-id" type="text" placeholder="keywords, job title, etc."/>
+                            </div>
+                            <div class="col-xs-4 col-sm-2 col-lg-1" style="padding-left: 0px;">
+                                <input class="search-btn-class" type="button" value="Search"/>
+                            </div>
+                        </div>
                     </div>
-                    <div id="search-btn-div">
-                        <input class="search-btn-class" type="button" value="Search"/>
+
+                    <div id="filter-div">
+                        <div class="row">
+                            <span id="filter-heading">Filter you results</span>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <input type="text" class="filter-input-class" placeholder="Location">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="filter-input-class" placeholder="Job Title">
+                            </div>
+                            <div class="col-sm-3">
+                                <input type="text" class="filter-input-class" placeholder="Company">
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col-sm-3">
+                                <input type="text" class="filter-input-class" placeholder="Salary">
+                            </div>
+                        </div>
+                        <div class="row">
+                           <div class="col-sm-3">
+                               <input type="button" class="search-btn-filter" value="Search"/>
+                            </div>
+                        </div>
                     </div>
-                </div>
 
-                <div id="filter-div">
-                    <table id="filter-table">
-                        <tr>
-                            <td id="filter-heading">Filter you results</td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" class="filter-input-class" placeholder="Location"</td>
-                            <td><input type="text" class="filter-input-class" placeholder="Job Title"</td>
-                            <td><input type="text" class="filter-input-class" placeholder="Company"</td>
-                        </tr>
-                        <tr>
-                            <td><input type="text" class="filter-input-class" placeholder="Salary"</td>
-                        </tr>
-                        <tr>
-                            <td><input type="button" class="search-btn-filter" value="Search"/></td>
-                        </tr>
-                    </table>
-                </div>
+                    <div class="tabs">
 
-                <div class="tabs">
-                    
-                   <div class="tab">
-                       <input type="radio" id="tab-1" name="tab-group-1" checked>
-                       <label for="tab-1">Featured</label>
-                       
-                       <div class="content">
-                           <table class="job-page-table">
-                             <tr>
-                               <th colspan="3">JOB TITLE</th>
-                               <th>PLACE</th>
-                               <th>EXPIRY DATE</th>
-                             </tr>
-                             <tr>
-                               <td>1</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>2</td>
-                               <td><p class="internship">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>3</td>
-                               <td><p class="fulltime">Full Time</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>4</td>
-                               <td><p class="internship2">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>5</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>6</td>
-                               <td><p class="internship2">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>7</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                           </table>
-                       </div> 
-                   </div>
-                    
-                   <div class="tab">
-                       <input type="radio" id="tab-2" name="tab-group-1">
-                       <label for="tab-2">Latest</label>
-                       
-                       <div class="content">
-                           <table class="job-page-table">
-                             <tr>
-                               <th colspan="3">JOB TITLE</th>
-                               <th>PLACE</th>
-                               <th>EXPIRY DATE</th>
-                             </tr>
-                             
-                             <tr>
-                               <td>1</td>
-                               <td><p class="internship2">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>2</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>3</td>
-                               <td><p class="internship2">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>4</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>5</td>
-                               <td><p class="freelance">Freelance</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>6</td>
-                               <td><p class="internship">Internship</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                             <tr>
-                               <td>7</td>
-                               <td><p class="fulltime">Full Time</p></td>
-                               <td>
-                                  <span class="job-heading-class">Software Engineer at Nayatel</span></br>
-                                  <span class="job-company">Nayatel</span>
-                                  <span class="posted-by-text">, Posted by</span>
-                                  <span class="job-company">NayatelRep</span>
-                               </td>
-                               <td class="job-place">
-                                 <span>Andani</span></br>
-                                 <span>Qandhar</span>
-                                 <span>Aasdfr</span>
-                               </td>
-                               <td class="job-date">10-Jul-2015</td>
-                             </tr>
-                           </table>
-                       </div> 
-                   </div>
-                    
-                </div>
+                        <div class="tab">
+                            <input type="radio" id="tab-1" name="tab-group-1" checked>
+                            <label for="tab-1">Featured</label>
 
-                <div class="row" style="padding-left: 1%;">
-                    <img width="98%" src="images/bottom-ad.png">
+                            <div class="content">
+                                <table class="job-page-table">
+                                    <tr>
+                                        <th colspan="3">JOB TITLE</th>
+                                        <th>PLACE</th>
+                                        <th>EXPIRY DATE</th>
+                                    </tr>
+                                    <tr>
+                                        <td>1</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><p class="internship">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><p class="fulltime">Full Time</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><p class="internship2">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><p class="internship2">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+
+                        <div class="tab">
+                            <input type="radio" id="tab-2" name="tab-group-1">
+                            <label for="tab-2">Latest</label>
+
+                            <div class="content">
+                                <table class="job-page-table">
+                                    <tr>
+                                        <th colspan="3">JOB TITLE</th>
+                                        <th>PLACE</th>
+                                        <th>EXPIRY DATE</th>
+                                    </tr>
+
+                                    <tr>
+                                        <td>1</td>
+                                        <td><p class="internship2">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td><p class="internship2">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td><p class="freelance">Freelance</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td><p class="internship">Internship</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td><p class="fulltime">Full Time</p></td>
+                                        <td>
+                                            <span class="job-heading-class">Software Engineer at Nayatel</span></br>
+                                            <span class="job-company">Nayatel</span>
+                                            <span class="posted-by-text">, Posted by</span>
+                                            <span class="job-company">NayatelRep</span>
+                                        </td>
+                                        <td class="job-place">
+                                            <span>Andani</span></br>
+                                            <span>Qandhar</span>
+                                            <span>Aasdfr</span>
+                                        </td>
+                                        <td class="job-date">10-Jul-2015</td>
+                                    </tr>
+                                </table>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="row" style="padding-left: 1%;">
+                        <img width="98%" src="images/bottom-ad.png">
+                    </div>
                 </div>
             </div>
-            <div class="col-sm-3 col-sm-pull-9">
-                <img width="100%" src="images/falcon-ad.png">
-                <img width="100%" src="images/google-ad.png">
-                <img width="100%" src="images/black-ad.png">
-            </div>
+        </div>
+        <div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+            <img class="leftads" width="100%" src="images/falcon-ad.png">
+            <img class="leftads" width="100%" src="images/google-ad.png">
+            <img class="leftads" width="100%" src="images/black-ad.png">
+        </div>
     </div>
+    <br>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>

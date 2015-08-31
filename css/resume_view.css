@@ -1,6 +1,5 @@
 #resume-head-wrapper {
 	padding-bottom: 12px;
-	padding-left: 32px;
 }
 #resume-head {
 	display: inline;
@@ -19,7 +18,7 @@ td {
 	width: 100%;
 	font-family: sans-serif;
 	line-height: 1.5;
-	font-size: 11pt;
+	font-size: 12pt;
 }
 .anchor {
 	text-decoration: none;
@@ -62,4 +61,8 @@ td {
 	display: block;
 	background-color: #00b38a;
 	margin-top: 16px;
+}
+
+#maincontent{
+	font-size: 12pt;
 }

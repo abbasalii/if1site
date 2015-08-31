@@ -10,27 +10,28 @@
 </head>
 <body>
 
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
-		<div class="col-sm-9 col-sm-push-3">
+		<div class="col-sm-9 col-sm-push-3" id="maincontent">
 			<!--PAGE CONTENT HERE-->
-			<div class="row">
-				<div class="row">
-					<p class="post-date">Posted on: 25th August 2015</p>
-					<a class="anchor anchor-back" href="#back">&lt Back</a>
-				</div>
-				<h1 id="job-title">Software Engineer</h1>
-				<p class="short-desc">Nayatel | Last Date: 7-Sep-2015 | Islamabad</p>
-				<div class="row" id="apply-form-container">
-					<div class="col-sm-6 leftpad">
-						<input class="input-text" type="text" placeholder="Name">
-						<input class="input-text" type="text" placeholder="Email">
-						<textarea class="text-area" placeholder="Message"></textarea>
-						<input type="button" class="btn btn-upload-cv" value="Upload Your CV">
-						<input type="button" class="btn btn-upload-if1" value="Use the CV Stored on iF1">
-						<input type="button" class="btn btn-apply" value="Apply">
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<div>
+						<p class="post-date">Posted on: 25th August 2015</p>
+						<a class="anchor anchor-back" href="#back">&lt Back</a>
+					</div>
+					<h1 id="job-title">Software Engineer</h1>
+					<p class="short-desc">Nayatel | Last Date: 7-Sep-2015 | Islamabad</p>
+					<div class="row" id="apply-form-container">
+						<div class="col-sm-6 leftpad">
+							<input class="input-text" type="text" placeholder="Name">
+							<input class="input-text" type="text" placeholder="Email">
+							<textarea class="text-area" placeholder="Message"></textarea>
+							<input type="button" class="btn btn-upload-cv" value="Upload Your CV">
+							<input type="button" class="btn btn-upload-if1" value="Use the CV Stored on iF1">
+							<input type="button" class="btn btn-apply" value="Apply">
+						</div>
 					</div>
 				</div>
 				<div class="row" style="padding-left: 1%;">
@@ -38,19 +39,22 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
-			<img width="100%" src="images/falcon-ad.png">
-			<img width="100%" src="images/google-ad.png">
-			<img width="100%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+			<img class="leftads" width="100%" src="images/falcon-ad.png">
+			<img class="leftads" width="100%" src="images/google-ad.png">
+			<img class="leftads" width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+	<br>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>

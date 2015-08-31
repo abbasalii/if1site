@@ -10,30 +10,45 @@
 </head>
 <body>
 
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
-		<div class="col-sm-9 col-sm-push-3">
+		<div class="col-sm-9 col-sm-push-3" id="maincontent">
 			<!--PAGE CONTENT HERE-->
-			<div class="row">
-				<h4 id="registeration-head">Undergraduate Student Registeration Form</h4>
-				<div class="row" id="registeration-form-container">
-					<div class="col-sm-6 leftpad">
-						<input class="input-text" type="text" placeholder="Name">
-						<input class="input-text" type="text" placeholder="Email">
-						<input class="input-text" type="text" placeholder="Faculty">
-						<input class="input-text" type="text" placeholder="Reg #">
-						<input class="input-text" type="text" placeholder="University">
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<h4 id="registeration-head">Undergraduate Student Registeration Form</h4>
+					<div class="row" id="registeration-form-container">
+						<div class="col-sm-6 leftpad">
+							<input class="input-text" type="text" placeholder="Name">
+							<input class="input-text" type="text" placeholder="Email">
+							<input class="input-text" type="text" placeholder="Faculty">
+							<input class="input-text" type="text" placeholder="Reg #">
+							<input class="input-text" type="text" placeholder="University">
+						</div>
+						<div class="col-sm-6 leftpad">
+							<div style="float: right;margin-right: 15px;">
+								<img src="images/upload-pic.png">
+								<input type="button" class="btn" value="Upload Picture">
+							</div>
+						</div>
 					</div>
-					<div class="col-sm-6 leftpad">
-						<img src="images/upload-pic.png">
-						<input type="button" class="btn" value="Upload Picture">
+					<div class="row">
+						<div class="col-sm-6 leftpad">
+							<input type="button" class="btn" value="Submit">
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 leftpad">
-						<input type="button" class="btn" value="Update Changes">
+					<div class="row">
+						<div class="col-sm-6">
+							<p>Please enter all the information correctly and carefully, We will verify
+								this information with the respective institutions.
+							</p>
+							<br>
+							<p>
+							Let your friends know about your participation in this event as the
+							student with the most votes will be selected.
+							</p>
+						</div>
 					</div>
 				</div>
 				<div class="row" style="padding-left: 1%;">
@@ -41,19 +56,22 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
-			<img width="100%" src="images/falcon-ad.png">
-			<img width="100%" src="images/google-ad.png">
-			<img width="100%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+			<img class="leftads" width="100%" src="images/falcon-ad.png">
+			<img class="leftads" width="100%" src="images/google-ad.png">
+			<img class="leftads" width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+	<br>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>

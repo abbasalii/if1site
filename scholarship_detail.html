@@ -10,39 +10,46 @@
 </head>
 <body>
 
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
-		<div class="col-sm-9 col-sm-push-3">
+		<div class="col-sm-9 col-sm-push-3" id="maincontent">
 			<!--PAGE CONTENT HERE-->
-			<div class="row">
-				<div class="row">
-					<p class="post-date">Posted on: 14th August 2015</p>
-					<a class="anchor anchor-back" href="#back">&lt Back</a>
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<div>
+						<p class="post-date">Posted on: 14th August 2015</p>
+						<a class="anchor anchor-back" href="#back">&lt Back</a>
+					</div>
+					<h1 id="scholarship-title">Scholarships by Decents Academy</h1>
+					<p class="short-desc">100 Total Scholarships for Undergraduate students.</p>
+					<br>
+					<div class="row" id="desc-container">
+						<div class="col-sm-6 leftpad">
+							<h4 class="heading">Description</h4>
+							<p class="text">Scholarships is for the students from rural areas of Afghanistan who are studying at Government Universities.</p>
+							<h4 class="heading">Eligibility</h4>
+							<p class="text">- 18-25 years of age<br>
+							- GPA above 3<br>
+							- Afghan rural area citizen</p>
+							<h4 class="heading">Applying Information</h4>
+							<p class="text">Valid from:<br>
+							12th June 2015 to 12th August 2015.<br><br>
+							Send your applications at:<br>
+							DecentsAcademy@gmail.com<br>
+							Visit Decents Academy at:<br>
+							Decents Academy Website
+							<p>
+							<input type="button" class="btn btn-send" value="Send your resume via iF1 directly*">
+							<p class="text">* This feature requires you to login/ signup first and upload your resume to our site and we send it directly to the companies you choose.
+							</p>
+
+						</div>
+					</div>
 				</div>
-				<h1 id="scholarship-title">Scholarships by Decents Academy</h1>
-				<p class="short-desc">100 Total Scholarships for Undergraduate students.</p>
-				<div class="row" id="desc-container">
-					<div class="col-sm-6 leftpad">
-						<h4 class="heading">Description</h4>
-						<p class="text">Scholarships is for the students from rural areas of Afghanistan who are studying at Government Universities.</p>
-						<h4 class="heading">Eligibility</h4>
-						<p class="text">- 18-25 years of age<br>
-						- GPA above 3<br>
-						- Afghan rural area citizen</p>
-						<h4 class="heading">Applying Information</h4>
-						<p class="text">Valid from:<br>
-						12th June 2015 to 12th August 2015.<br><br>
-						Send your applications at:<br>
-						DecentsAcademy@gmail.com<br>
-						Visit Decents Academy at:<br>
-						Decents Academy Website
-						<p>
-						<input type="button" class="btn btn-send" value="Send your resume via iF1 directly*">
-						<p class="text">* This feature requires you to login/ signup first and upload your resume to our site and we send it directly to the companies you choose.
-						</p>
-						<p class="result-info">Scholarship search results  &gt <span id="page-no">Page 12</span> 
+				<div class="row">
+					<div class="col-sm-7 col-sm-push-2">
+						<p class="result-info">Scholarship search results  &gt <span id="page-no">Page 12</span>
 						&gt <span id="result-no"> Result 6</span></p>
 					</div>
 				</div>
@@ -51,19 +58,22 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
-			<img width="100%" src="images/falcon-ad.png">
-			<img width="100%" src="images/google-ad.png">
-			<img width="100%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+			<img class="leftads" width="100%" src="images/falcon-ad.png">
+			<img class="leftads" width="100%" src="images/google-ad.png">
+			<img class="leftads" width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+	<br>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>

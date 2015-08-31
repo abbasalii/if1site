@@ -1,6 +1,6 @@
 #resume-head-wrapper {
 	padding-bottom: 12px;
-	padding-left: 32px;
+	/*padding-left: 32px;*/
 }
 #resume-head {
 	display: inline;
@@ -41,14 +41,14 @@ label {
 	font-weight: bold;
 }
 .text-area {
-	width: 100%;
+	width: 96%;
 	height: 96px;
 	font-size: 12pt;
 	border-radius: 3px;
 	resize: none;
 }
 .input-text {
-	width: 100%;
+	width: 96%;
 	font-size: 12pt;
 	padding: 6px 2px;
 	border: 1px solid #ccc;

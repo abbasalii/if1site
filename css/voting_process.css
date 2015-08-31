@@ -1,12 +1,8 @@
 #searchdiv{
-	border: 10px solid;
+	padding: 10px;
 	border-color: #4B5457;
 	background-color: #4B5457;
-	width: 100%;
-}
-#search-input-div{
-	width: 89%;
-	float: left;
+	margin-right: 15px;
 }
 #can-name-or-id{
 	width: 100%;
@@ -17,31 +13,35 @@
 	padding: 2px;
 }
 
-#search-btn-div{
-	/*width: 50px;*/
-}
 
 #can-search-btn{
-	margin-left: 5px;
 	background-color: #008db5;
 	color: #FFF;
 	border:none;
 	border-color: #008db5;
-	height: 28px;
-	width:96px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	width: 100%;
 }
 
 #candidate-container{
-	width: 100%;
 	height: 656px;
 	margin-top: 5px;
 	margin-bottom: 5px;
+	margin-right: 15px;
 	overflow-y: scroll;
 }
 .candidate-inner{
 	width: 256px;
 	float: left;
 	margin: 5px;
+}
+.seemore-btn-class{
+	background-color: #6d207c;
+	color: #FFF;
+	border:none;
+	border-color: #6d207c;
+	padding: 5px 15px;
 }
 
 .candidate-class{

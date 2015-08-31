@@ -9,47 +9,47 @@
 	<link rel="stylesheet" type="text/css" href="css/resume_edit.css">
 </head>
 <body>
-
-<div id="headerdiv"></div>
-
 <div class="container">
+	<div id="headerdiv"></div>
 	<div class="row">
-		<div class="col-sm-9 col-sm-push-3">
+		<div class="col-sm-9 col-sm-push-3" id="maincontent">
 			<!--PAGE CONTENT HERE-->
-			<div class="row">
-				<div id="resume-head-wrapper">
-					<h1 id="resume-head">My Resume</h1>
-					<a class="anchor anchor-edit" href="#edit"><img src="images/edit-btn.png">Edit</a>
-				</div>
-				<div class="row" id="resume-form-container">
-					<div class="col-sm-6 leftpad">
-						<label>Describe your objectives</label>
-						<textarea class="text-area"></textarea>
-						<label>Current Employer</label>
-						<input class="input-text" type="text">
-						<label>Position</label>
-						<input class="input-text" type="text">
-						<label>Previous Employers and their job titles</label>
-						<textarea class="text-area"></textarea>
-						<label>References</label>
-						<textarea class="text-area"></textarea>
+			<div class="row maincontentrow">
+				<div class="maincontentwindow">
+					<div id="resume-head-wrapper">
+						<h1 id="resume-head">My Resume</h1>
+						<a class="anchor anchor-edit" href="#edit"><img src="images/edit-btn.png">Edit</a>
 					</div>
-					<div class="col-sm-6 leftpad">
-						<input type="button" class="btn btn-upload" value="Upload New CV">
-						<a class="anchor anchor-view-cv" href="#view-cv">View Current CV</a>
-						<label>Education</label>
-						<textarea class="text-area"></textarea>
-						<label>Skills</label>
-						<textarea class="text-area"></textarea>
-						<label>Trainings</label>
-						<input class="input-text" type="text">
-						<label>Courses</label>
-						<textarea class="text-area"></textarea>
+					<div class="row" id="resume-form-container">
+						<div class="col-sm-6 leftpad">
+							<label>Describe your objectives</label>
+							<textarea class="text-area"></textarea>
+							<label>Current Employer</label>
+							<input class="input-text" type="text">
+							<label>Position</label>
+							<input class="input-text" type="text">
+							<label>Previous Employers and their job titles</label>
+							<textarea class="text-area"></textarea>
+							<label>References</label>
+							<textarea class="text-area"></textarea>
+						</div>
+						<div class="col-sm-6 leftpad">
+							<input type="button" class="btn btn-upload" value="Upload New CV">
+							<a class="anchor anchor-view-cv" href="#view-cv">View Current CV</a>
+							<label>Education</label>
+							<textarea class="text-area"></textarea>
+							<label>Skills</label>
+							<textarea class="text-area"></textarea>
+							<label>Trainings</label>
+							<input class="input-text" type="text">
+							<label>Courses</label>
+							<textarea class="text-area"></textarea>
+						</div>
 					</div>
-				</div>
-				<div class="row">
-					<div class="col-sm-6 leftpad">
-						<input type="button" class="btn btn-update" value="Update Changes">
+					<div class="row">
+						<div class="col-sm-6 leftpad">
+							<input type="button" class="btn btn-update" value="Update Changes">
+						</div>
 					</div>
 				</div>
 				<div class="row" style="padding-left: 1%;">
@@ -57,19 +57,22 @@
 				</div>
 			</div>
 		</div>
-		<div class="col-sm-3 col-sm-pull-9">
-			<img width="100%" src="images/falcon-ad.png">
-			<img width="100%" src="images/google-ad.png">
-			<img width="100%" src="images/black-ad.png">
+		<div class="col-sm-3 col-sm-pull-9" id="leftbarads">
+			<img class="leftads" width="100%" src="images/falcon-ad.png">
+			<img class="leftads" width="100%" src="images/google-ad.png">
+			<img class="leftads" width="100%" src="images/black-ad.png">
 		</div>
 	</div>
+	<br>
 </div>
 
-<div id="footerdiv"></div>
+<div class="visible-xs" id="test-xs"></div>
+<footer class="footer" id="footerdiv"></footer>
 
 <script src="bootstrap/js/jquery.min.js"></script>
 <script src="bootstrap/js/bootstrap.min.js"></script>
 <script>$("#headerdiv").load("header.html")</script>
 <script>$("#footerdiv").load("footer.html")</script>
+<script src="js/script.js"></script>
 </body>
 </html>
